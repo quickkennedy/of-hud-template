@@ -17,3 +17,5 @@ if you see a "%metal%" on your screen once loaded in, go into resource/ui/huddam
 next, go into resource/ui/hudplayerhealth.res and delete everything below "PlayerStatusAnchor".
 
 your hud should now work in open fortress.
+
+https://discord.gg/QKsBkdqxbN for questions
