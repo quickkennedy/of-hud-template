@@ -28,5 +28,7 @@ this file is the meter used by the lightning gun
 this file is the scoreboard used in deathmatch
 - resource/ui/dmteammenu.res
 this file is the team selection menu used in deathmatch
+- resource/ui/basemodui/mainmenu.res
+this file is the entire main menu. it has different buttons than those found in live tf2, and as such needs to be changed.
 
 you can check in on the sourcemod hud development discord server for information on how to do these things: https://discord.gg/QKsBkdqxbN
