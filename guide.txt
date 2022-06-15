@@ -16,6 +16,8 @@ if you see a "%metal%" on your screen once loaded in, go into resource/ui/huddam
 
 next, go into resource/ui/hudplayerhealth.res and delete everything below "PlayerStatusAnchor".
 
+next, go into scripts/hudlayout-[something].res and delete all of the element "HudWeaponSelection"
+
 your hud should now work in open fortress, however a few more things will be needed for it to be 100% perfect.
 
 the following files will need to be edited to look like your normal hud. this CANNOT be done automatically, and you will have to be a bit of an artist and imagine what the creator would have done:
