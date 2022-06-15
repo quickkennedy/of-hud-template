@@ -16,6 +16,17 @@ if you see a "%metal%" on your screen once loaded in, go into resource/ui/huddam
 
 next, go into resource/ui/hudplayerhealth.res and delete everything below "PlayerStatusAnchor".
 
-your hud should now work in open fortress.
+your hud should now work in open fortress, however a few more things will be needed for it to be 100% perfect.
 
-https://discord.gg/QKsBkdqxbN for questions
+the following files will need to be edited to look like your normal hud. this CANNOT be done automatically, and you will have to be a bit of an artist and imagine what the creator would have done:
+
+- resource/ui/hudlungemeter.res
+this file is the meter used by the grappling hook shotgun
+- resource/ui/hudlightningcharge.res
+this file is the meter used by the lightning gun
+- resource/ui/scoreboarddm.res
+this file is the scoreboard used in deathmatch
+- resource/ui/dmteammenu.res
+this file is the team selection menu used in deathmatch
+
+you can check in on the sourcemod hud development discord server for information on how to do these things: https://discord.gg/QKsBkdqxbN
