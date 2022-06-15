@@ -1,0 +1,19 @@
+import your hud
+
+first, rename your huds clientscheme (resource/clientscheme.res) to "clientscheme-[something].res". replace [something] with anything you want, just remember it for later.
+
+second, rename your huds hudlayout (scripts/hudlayout.res) to "hudlayout-[something].res". replace [something] with anything you want, just remember it for later.
+
+third, rename your huds scoreboard (resource/ui/scoreboard.res) to "scoreboard-[something].res". replace [something] with anything you want, just remember it for later.
+
+then, import the template files. make sure to override any files that need to be overwritten.
+
+go into the NEW clientscheme, hudlayout, and scoreboard files and replace the text "void" with whatever you did in place of [something] earlier.
+
+now, start up open fortress. load into any map, preferably dm_dev_itemtest.
+
+if you see a "%metal%" on your screen once loaded in, go into resource/ui/huddamageaccount.res and delete every element that isnt "CDamageAccountPanel"
+
+next, go into resource/ui/hudplayerhealth.res and delete everything below "PlayerStatusAnchor".
+
+your hud should now work in open fortress.
